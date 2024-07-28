@@ -1,0 +1,171 @@
+/* style of header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12%;
+    padding: 20px 10px;
+    background: #f1e9e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+/* position and size of logo */
+.logo {
+    width: auto; 
+    height: 120px;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+/*style of unordered list in header */
+.header ul li {
+    margin: 0 15px;
+    display: inline; 
+    list-style-type: none;
+    position: relative;
+}
+
+.header ul li a {
+    font-size: 19px;
+    color: #493125 ;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+/* change style when mouse over */
+.header ul li :hover {
+    color: #c6936b;
+}
+
+/* add underline at the bottom of link */
+.header ul li::after {
+    content: '' ;
+    height: 3px ;
+    width: 0% ;
+    background: #c6936b ;
+    position: absolute ;
+    left: 0 ;
+    bottom: -5px ;
+    transition: 0.5s;
+}
+
+/* make the line visible when the mouse over*/
+.header ul li:hover:after {
+    width: 100%;
+}
+
+/* style of dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    text-align: left;
+    position: absolute;
+    background-color:#f1e9e1;
+    min-width: 155px;
+    box-shadow: 0 8px 16px 0 gray;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dropdown-content p {
+    text-align: left;
+    padding:  10px;
+}
+
+.dropdown-content a {
+    color: #493125;
+    text-decoration: none;
+}
+
+/* change style when the mouse over */
+.dropdown-content a:hover {
+    color: #c6936b;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* indicate visited and non-visited status */
+.dropdown-content a:visited,
+.header ul li a:visited {
+    color: #c6936b;
+}
+
+/* specifies the size and position of footer container */
+.footer-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* style of row of footer */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+/* Style of column of the footer */
+.col {
+    width: 20%;
+    margin-left: 50px;
+}
+
+.col h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+ul {
+    display: contents;
+    list-style-type: none;
+}
+
+/* style of footer */
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #b8967c;
+    padding: 40px 0 ;
+    position: relative;
+}
+
+.col ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #202020bb;
+    font-weight: 500;
+    display: block;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+/* change the style of link when mouse over */
+.col ul li a:hover {
+    color: #fff;
+    padding-left: 10px;
+}
+
+/* style of the icon for the social column */
+.col .social a img {
+    height: 30px;
+    width: 30px;
+    margin-right: 3%;
+}
+
+.col p a {
+    border-right: 100px;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Deals │ Sweet Bites</title>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="Header_footer.css">
+</head>
+<body>
+    <header class="header">
+        <!-- add image of logo and add a new page when click it -->
+        <a href="index.html" target="_blank">
+            <img src="image/logo.png" alt="Image of logo" class="logo">
+        </a>
+        <!-- use unordered list to sort the links-->
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li class="dropdown">
+                    <a href="specialdeals.html">SPECIAL DEALS</a>
+                    <div class="dropdown-content">
+                        <p><a href="#New_Arrival">New Arrival</a></p>
+                        <p><a href="#Discount_Item">Discount Item</a></p>
+                    </div>
+                </li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul> 
+        </nav>
+    </header>
+
+    <main>
+        <!-- add image as the banner of special deals page -->
+        <div class="banner">
+            <!-- add background music -->
+            <audio controls autoplay loop src="audio.mp3"></audio>
+            <img src="image/banner-4.png" alt="image of banner">
+        </div>
+
+        <!--add a container to differentiate product area  -->
+        <div class="product-container">
+            <h4>Free Shipping for orders above RM200.</h4>
+            <!-- new arrival part-->
+            <!-- add class to do css, id for dropdown link -->
+            <div class ="section" id="New_Arrival">   
+                <h1>New Arrival</h1>
+                <!-- use column to seperate each of the product -->
+                <div class="column">
+                    <img src="image/Korea/banana_milk.png" alt="Banana Milk">
+                    <div class="content">
+                        <p class="caption">Binggrae Banana Milk (200ml x 6)</p>
+                        <p class="oriprice">RM29.90</p>
+                        <p class="price">RM25.00</p>
+                        <img src="image/4.5_stars.png" alt="image of rating">
+                    </div>
+                </div>
+                
+                <div class="column">
+                    <img src="image/Korea/turtle_chip.png" alt="Turtle Chip">
+                    <div class="content">
+                        <p class="caption">Orion Turtle Chips (65g)</p>
+                        <p class="oriprice">RM7.00</p>
+                        <p class="price">RM5.90</p>
+                        <img src="image/4.5_stars.png" alt="image of rating">
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <img src="image/Korea/corn_snack.png" alt="Corn Chips">
+                    <div class="content">
+                        <p class="caption">Lotte Popping Corn Chips (72g)</p>
+                        <p class="oriprice">RM10.00</p>
+                        <p class="price">RM8.90</p>
+                        <img src="image/4.5_stars.png" alt="image of rating">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <img src="image/Japan/kitkat.png" alt="KitKat">
+                    <div class="content">
+                        <p class="caption">Nestle Kitkat Matcha Flavour (35g)</p>
+                        <p class="oriprice">RM16.00</p>
+                        <p class="price">RM14.90</p>
+                        <img src="image/4.5_stars.png" alt="image of rating">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <img src="image/Japan/pocky.png" alt="Pocky">
+                    <div class="content">
+                        <p class="caption">POCKY Strawberry Flavour Stick (38g)</p>
+                        <p class="oriprice">RM4.50</p>
+                        <p class="price">RM3.10</p>
+                        <img src="image/4.5_stars.png" alt="image of rating">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <img src="image/Thailand/haribo.png" alt="Haribo">
+                    <div class="content">
+                        <p class="caption">Haribo Gummy Happy Cola (80g)</p>
+                        <p class="oriprice">RM7.00</p>
+                        <p class="price">RM5.50</p>
+                        <img src="image/5_stars.png" alt="image of rating">
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <!-- discount item part-->
+            <!-- add class to do css, id for dropdown link -->
+            <div class ="section" id="Discount_Item">
+                <h1>Discount Item</h1>
+                <!-- use column to seperate each of the product -->
+                <div class="column">
+                    <img src="image/Thailand/lays.png" alt="Lays">
+                    <div class="content">
+                        <p class="caption">Thailand Lay's Potato Chips (50g)</p>
+                        <p class="oriprice">RM8.50</p>
+                        <p class="price">RM4.25</p>
+                        <p class="dispercent">-50%</p>
+                        <img src="image/5_stars.png" alt="image of rating">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <img src="image/Thailand/seaweed.png" alt="Seaweed">
+                    <div class="content">
+                        <p class="caption">Tao Kae Noi Crispy Seaweed (32.5g)</p>
+                        <p class="oriprice">RM7.60</p>
+                        <p class="price">RM5.32</p>
+                        <p class="dispercent">-30%</p>
+                        <img src="image/4.5_stars.png" alt="image of rating">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <img src="image/China/rice_cracker.png" alt="Rice Cracker">
+                    <div class="content">
+                        <p class="caption">Want Want Senbei Rice Crackers (112g)</p>
+                        <p class="oriprice">RM7.70</p>
+                        <p class="price">RM4.62</p>
+                        <p class="dispercent">-40%</p>
+                        <img src="image/4.5_stars.png" alt="image of rating">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <img src="image/China/milk_candy.png" alt="Milk Candy">
+                    <div class="content">
+                        <p class="caption">Wangzai Milk Candy (15g)</p>
+                        <p class="oriprice">RM1.20</p>
+                        <p class="price">RM0.72</p>
+                        <p class="dispercent">-40%</p>
+                        <img src="image/5_stars.png" alt="image of rating">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <img src="image/Korea/oreo.png" alt="Oreo">
+                    <div class="content">
+                        <p class="caption">OREO Mint Chocolate Cookie (80g)</p>
+                        <p class="oriprice">RM10.50</p>
+                        <p class="price">RM6.30</p>
+                        <p class="dispercent">-40%</p>
+                        <img src="image/4.5_stars.png" alt="image of rating">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <img src="image/Thailand/squid-snack.png" alt="Squid Snack">
+                    <div class="content">
+                        <p class="caption">Thailand Bento Squid Snack Spicy (20g)</p>
+                        <p class="oriprice">RM12.90</p>
+                        <p class="price">RM9.03</p>
+                        <p class="dispercent">-30%</p>
+                        <img src="image/5_stars.png" alt="image of rating">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class = "footer">
+        <div class="footer-container">
+            <!-- differentiate the row and column -->
+            <div class="row">
+                <!-- push the footer to right hand side -->
+                <div style="width: 10%;"></div>
+                <!-- seperate each main information in column -->
+                <div class="col">
+                    <h4>SWEET BITES</h4>
+                    <ul>
+                        <li>
+                            <a href="aboutus.html">About Us</a><br>
+                            <a href="contact.html">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>FOLLOW US</h4>
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><img src="image/facebook_icon.png" alt="facebook icon"></a>
+                        <a href="https://www.instagram.com/"><img src="image/insta_icon.png" alt="instagram icon"></a>
+                        <a href="https://twitter.com/"><img src="image/twitter_icon.png" alt="twitter icon"></a>
+                        <a href="https://www.linkedin.com/"><img src="image/linkedin_icon.png" alt="linkedin icon"></a>
+                    </div>
+                </div>
+                <div class="colcopyright">
+                    <p><i><small>Copyright &copy; 2023; Design by Sweet Bites Team</small></i></p><br>
+                    <i><a href="mailto:sweetbites@gmail.com">sweetbites@gmail.com</a></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

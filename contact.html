@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us │ Sweet Bites</title>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="Header_footer.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- add image of logo and add a new page when click it -->
+        <a href="index.html" target="_blank">
+            <img src="image/logo.png" alt="Image of logo" class="logo">
+        </a>
+        <!-- use unordered list to sort the links-->
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="specialdeals.html">SPECIAL DEALS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul> 
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seperate faq and contact us area -->
+        <div class="faq">
+            <!-- add image beside the FAQ -->
+            <img src="image/faq.png" alt="image of FAQ">
+            <!-- FAQ area -->
+            <h2>Frequently Ask Questions</h2>
+            <details>
+                <summary>How do I place an Order?</summary>
+                <p>
+                    You can place an order via email, phone call or visit to our store.
+                </p>
+            </details>
+            <details>
+                <summary>How much does shipping cost?</summary>
+                <p>
+                    Shipping charges vary based on your location and the products you have purchased. You can contact us for more accurate estimate of shipping charges.
+                </p>
+            </details>
+            <details>
+                <summary>How will I know if my order has been received?</summary>
+                <p>
+                    If you have emailed a purchase order to sweetbites@gmail.com, a confirmation email will be sent to you once the order has been processed during our regular office hours Monday to Friday 9am – 5pm. If you have faxed a purchase order to 03-450-7890, a confirmation email or fax will be sent to you once the order has been processed during our regular office hours Monday to Friday 9am – 5pm.  
+                </p>
+            </details>
+            <details>
+                <summary>How do I cancel my order?</summary>
+                <p>
+                    If you need to cancel your order please contact us at 03-450-7890. Please keep in mind that we strive to process and ship orders the same day (if received before 1pm), and once the order has shipped you will be subject to our return policy.
+                </p>
+            </details>
+            <details>
+                <summary>When will my products arrive?</summary>
+                <p>
+                    Our fastest shipping to Malaysia takes just 1-2 days when you choose an express delivery service. And if you're shipping on a budget, our economy shipping options take between 3-12 days depending on the Malaysia courier service you choose.
+                </p>
+            </details>
+            <details>
+                <summary>How do I contact customer service?</summary>
+                <p>
+                    Please refer the content below or click <a href="#Contact_us">Contact us</a>
+                </p>
+            </details>
+        </div>
+
+        <!-- Seperate faq and contact us area -->
+        <div class="contact" id="Contact_us">
+            <!-- Seperate the title and desciption of the contact us area -->
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p>
+                    Order Now For An Unforgettable Services Experience
+                </p>
+            </div>
+
+            <!-- conbine the main content of contact us area -->
+            <div class="container">
+                <!-- seperate form and contact info area -->
+                <div class="form">
+                    <form>
+                        <h2>Make Us Improve!</h2>
+                        <div class="inputBox">
+                            <label for="name">Full Name:</label>
+                            <input type="text" name="name" id="name" required="required">
+                        </div>
+                        <div class="inputBox">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" required="required">
+                        </div>
+                        <div class="inputBox">
+                            <label for="message">Type Message...</label>
+                            <textarea name="message" id="message" required="required"></textarea>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" value="send">
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="contactInfo">
+                    <!-- seperate each of the method with div -->
+                    <div class="method">
+                        <img src="image/address.png" alt="image of address">
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p> No. 23 A Jalan Pandan Indah 1/23D <br>Taman Pandan Indah <br>55100,Kuala Lumpur</p>
+                        </div>
+                    </div>
+                    <div class="method">
+                        <img src="image/mail.png" alt="image of mail">
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p><a href="mailto:sweetbites@gmail.com">sweetbites@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="method">
+                        <img src="image/phone.png" alt="image of phone">
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>03-450-7890</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class = "footer">
+        <div class="footer-container">
+            <!-- differentiate the raw and column -->
+            <div class="row">
+                <!-- push the footer to right hand side -->
+                <div style="width: 10%;"></div>
+                <!-- seperate each main information in column -->
+                <div class="col">
+                    <h4>SWEET BITES</h4>
+                    <ul>
+                        <li>
+                            <a href="aboutus.html">About Us</a><br>
+                            <a href="contact.html">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>FOLLOW US</h4>
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><img src="image/facebook_icon.png" alt="facebook icon"></a>
+                        <a href="https://www.instagram.com/"><img src="image/insta_icon.png" alt="instagram icon"></a>
+                        <a href="https://twitter.com/"><img src="image/twitter_icon.png" alt="twitter icon"></a>
+                        <a href="https://www.linkedin.com/"><img src="image/linkedin_icon.png" alt="linkedin icon"></a>
+                    </div>
+                </div>
+                <div class="colcopyright">
+                    <p><i><small>Copyright &copy; 2023; Design by Sweet Bites Team</small></i></p><br>
+                    <i><a href="mailto:sweetbites@gmail.com">sweetbites@gmail.com</a></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

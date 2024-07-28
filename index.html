@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home │ Sweet Bites</title>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Header_footer.css">
+</head>
+<body>
+    <header class="header">
+        <!-- add image of logo and add a new page when click it -->
+        <a href="index.html" target="_blank">
+            <img src="image/logo.png" alt="Image of logo" class="logo">
+        </a>
+        <!-- use unordered list to sort the links-->
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="specialdeals.html">SPECIAL DEALS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul> 
+        </nav>
+    </header>
+
+    <main>
+        <!--add a container to show the welcoming banner  -->
+        <div id="banner-1-container">
+            <img src="image/banner-1.png" alt="banner 1" id="banner-1">
+            <!--add a button to link to the product page  -->
+            <a href="product.html">
+                <img src="image/shopnow.png" alt="Shop Now" id="icon-1">
+            </a>
+        </div>
+
+        <!--add a container to show new arrival banner  -->
+        <div id="banner-2-container">
+            <img src="image/banner-2.jpg" alt="banner 2" id="banner-2">
+            <!--add a button to link to the special deals page  -->
+            <a href="specialdeals.html">
+                <img src="image/viewmore.png" alt="View More" id="icon-2">
+            </a>
+        </div>
+
+        <!--add a container to show customer review  -->
+        <div id="review-container">
+            <div id="review-title">
+                <img src="image/review-icon.png" alt="review">
+                <h1>Why choose us?</h1>
+            </div>
+            <h4>Here is what our customers said.</h4>
+            <div class="review">
+                <img src="image/smile-icon.png" alt="smile">
+                <h2>David</h2>
+                <div class="stars">
+                    <img src="image/4.5_stars.png" alt="4.5 stars" class="stars">
+                </div>
+                <ul>
+                    <li><h3>Received in good condition.</h3></li>
+                </ul>
+            </div>
+            <div class="review">
+                <img src="image/smile-icon.png" alt="smile">
+                <h2>Anna</h2>
+                <div class="stars">
+                    <img src="image/5_stars.png" alt="5 stars">
+                </div>
+                <ul>
+                    <li><h3>Tasty! Will purchase again.</h3></li>
+                </ul>
+            </div>
+            <div class="review">
+                <img src="image/smile-icon.png" alt="smile">
+                <h2>Grace</h2>
+                <div class="stars">
+                    <img src="image/4.5_stars.png" alt="4.5 stars">
+                </div>
+                <ul>
+                    <li><h3>High quality. My kids like it.</h3></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--add a container to show video and link to about us page  -->
+        <div id="us-container">
+            <video controls="controls" poster="image/SweetBites.png">
+                <source src="video.mp4">
+            </video>
+            <div><h1>About us</h1></div>
+            <div>
+                <h4>Sweet Bites ──── Whether you prefer sweet, salty, healthy snacks, or specialty imported foods, we have it all. <br><br>
+                Want to know more about us? &nbsp;<a href="aboutus.html">View More</a></h4>
+            </div>
+        </div>
+    </main>
+
+    <footer class = "footer">
+        <div class="footer-container">
+            <!-- differentiate the row and column -->
+            <div class="row">
+                <!-- push the footer to right hand side -->
+                <div style="width: 10%;"></div>
+                <!-- seperate each main information in column -->
+                <div class="col">
+                    <h4>SWEET BITES</h4>
+                    <ul>
+                        <li>
+                            <a href="aboutus.html">About Us</a><br>
+                            <a href="contact.html">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>FOLLOW US</h4>
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><img src="image/facebook_icon.png" alt="facebook icon"></a>
+                        <a href="https://www.instagram.com/"><img src="image/insta_icon.png" alt="instagram icon"></a>
+                        <a href="https://twitter.com/"><img src="image/twitter_icon.png" alt="twitter icon"></a>
+                        <a href="https://www.linkedin.com/"><img src="image/linkedin_icon.png" alt="linkedin icon"></a>
+                    </div>
+                </div>
+                <div class="colcopyright">
+                    <p><i><small>Copyright &copy; 2023; Design by Sweet Bites Team</small></i></p><br>
+                    <i><a href="mailto:sweetbites@gmail.com">sweetbites@gmail.com</a></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* add the scroll behavior to smooth */
+html {
+    scroll-behavior: smooth;
+}
+
+/* style of main part */
+main {
+    background-color: #ddcdbd;
+    width: 100%;
+    height: fit-content;
+    margin-top: 75px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+/* style of faq part */
+.faq {
+    display: inline;
+}
+
+/* style of faq image */
+.faq img {
+    margin-left: -80px;
+    width: 60%;
+    float: left;
+}
+
+.faq h2 {
+    text-align: left;
+    margin-top: 40px;
+    padding: 10px 0 50px;
+    font-family: 'Segote UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    color: #33231a;
+}
+
+details {
+    width: 45%;
+    margin-left: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 16px gray;
+    border-radius: 5px;
+}
+
+summary {
+    padding: 16px ;
+    padding-left: 60px ;
+    cursor: pointer;
+}
+
+details p {
+    padding: 10px 60px;
+}
+
+/* style of upper contact us area */
+.contact {
+    position: relative;
+    scroll-margin-top: 100px;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact .content {
+    max-width: 100% ;
+    text-align: center;
+}
+
+.contact .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact .content p {
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.content p {
+    align-items: center;
+}
+
+/* style of contact us area */
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo {
+    width: 250%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+.container .contactInfo .method {
+    padding: 20px 0;
+    display: flex;
+    position: relative;
+}
+
+/* style of the icon of each method */
+.container .contactInfo .method img {
+    min-width: 60px;
+    margin-right: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactInfo .method img ,.text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactInfo .method,.text h3 {
+    font-weight: 700;
+    color: #33231a;
+    margin-bottom: 10px;
+}
+
+/* style of the form in contact us area*/
+.form {
+    width: 170%;
+    padding: 40px;
+    margin-left: 15%;
+    background-color: #fff;
+}
+
+.form h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form .inputBox input,
+.form .inputBox textarea 
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;
+}
+
+.form .inputBox label {
+    position: absolute;
+    left: 0%;
+}
+
+/* style of button */
+.form .inputBox input[type="submit"] {
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    background-color:#b8967c;
+    color: #fff;
+    padding: 10px;
+}
+
+/* change the style of the button when mouse move over */
+.form .inputBox input[type="submit"]:hover {
+    padding: 11px;
+    position: relative;
+    color: #33231a;
+}
